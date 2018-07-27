@@ -1172,6 +1172,42 @@ message TrafficSign
                 //
                 TYPE_LEVER_CROSSING_BEACON_AHEAD_LEFT = 121;
 
+                // St. Andrew’s cross; railway traffic has priority
+                // (StVO 201-50, StVO 201-52)
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/201-50.png
+                //
+                TYPE_RAILWAY_TRAFFIC_HAS_PRIORITY = 122;
+
+                // St. Andrew’s cross; with lightning bolt indicating voltage-carrying overhead line.
+                // Railway traffic has priority
+                // (StVO 201-51, StVO 201-53)
+                //
+                // See e.g.:
+                //
+                TYPE_RAILWAY_TRAFFIC_HAS_PRIORITY_WITH_VOLTAGE = 123;
+
+                // Drive along side lanes
+                // (StVO 223.1-50, StVO 223.1-51, StVO 223.1-52)
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/223.1-50.png
+                //
+                TYPE_SIDE_LANE_OPEN_FOR_TRAFFIC = 124;
+
+                // Do not drive on the side lane
+                // (StVO 223.1-50, StVO 223.1-51, StVO 223.1-52)
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/223.2-50.png
+                //
+                TYPE_SIDE_LANE_CLOSED_FOR_TRAFFIC = 125;
+
+                // Do not drive on the side lane
+                // (StVO 223.350, StVO 223.3-51, StVO 223.3-52)
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/223.3-50.png
+                //
+                TYPE_SIDE_LANE_CLOSING_FOR_TRAFIC = 126;
+
             }
 
             // Definition of the direction of the traffic sign's scope.
