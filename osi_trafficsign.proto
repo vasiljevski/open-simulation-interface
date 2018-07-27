@@ -960,6 +960,218 @@ message TrafficSign
                 // See e.g.:
                 //
                 TYPE_TRAFFIC_LIGHT_GREEN_ARROW = 92;
+
+                // Uneven road
+                // (StVO 112).
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/112.png
+                //
+                TYPE_UNEVEN_ROAD = 93;
+
+                // Risk of snow or ice
+                // (StVO 113).
+                //
+                // See e.g.:
+                //
+                TYPE_RISK_OF_SHOW_OR_ICE = 94;
+
+                // Road slippery when wet or dirty
+                // (StVO 114).
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/114.png
+                //
+                TYPE_ROAD_SLIPPERY_WET_OR_DIRTY = 95;
+
+                // Falling or fallen rocks
+                // (StVO 115).
+                //
+                // See e.g.:
+                //
+                TYPE_WARNING_FALLING_ROCKS = 96;
+
+                // Loose gravel or stone fragments on a road surface
+                // (StVO 116).
+                //
+                // See e.g.:
+                //
+                TYPE_LOOSE_CHIPPINGS = 97;
+
+                // Side winds from the right
+                // (StVO 117-10). Left: \c #TYPE_SIDE_WINDS_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/117-10.png
+                //
+                TYPE_SIDE_WINDS_RIGHT = 98;
+
+                // Side winds from the left
+                // (StVO 117-20). Right: \c #TYPE_SIDE_WINDS_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_SIDE_WINDS_LEFT = 99;
+
+                // Traffic queues likely ahead
+                // (StVO 124).
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/124.png
+                //
+                TYPE_TRAFFIC_QUEUES = 100;
+
+                // Opening or swing bridge ahead
+                // (StVO 128).
+                //
+                // See e.g.:
+                //
+                TYPE_SWING_BRIDGE_AHEAD = 101;
+
+                // Quayside or river bank
+                // (StVO 129).
+                //
+                // See e.g.:
+                //
+                TYPE_RIVER_BANK = 102;
+
+                // Pedestrians in road ahead from right
+                // (StVO 133-10). Left: \c #TYPE_PEDESTRIANS_AHEAD_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/133-10.png
+                //
+                TYPE_PEDESTRIANS_AHEAD_RIGHT = 103;
+
+                // Pedestrians in road ahead from left
+                // (StVO 133-20). Right: \c #TYPE_PEDESTRIANS_AHEAD_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_PEDESTRIANS_AHEAD_LEFT = 104;
+
+                // Zebra (pedestrian) crossing from the right to left
+                // (StVO 134-10). Left: \c #TYPE_ZEBRA_CROSSING_WARNING_LEFT
+                //
+                // See e.g.:
+                //
+                TYPE_ZEBRA_CROSSING_WARNING_RIGHT = 105;
+
+                // Zebra (pedestrian) crossing from the left to right
+                // (StVO 134-20). Right: \c #TYPE_ZEBRA_CROSSING_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_ZEBRA_CROSSING_WARNING_LEFT = 106;
+
+                // Children crossing ahead, from the right
+                // (StVO 136-10). Left: \c #TYPE_CHILDREN_CROSSING_WARNING_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/136-10.png
+                //
+                TYPE_CHILDREN_CROSSING_WARNING_RIGHT = 107;
+
+                // Children crossing ahead, from the left
+                // (StVO 136-20). Right: \c #TYPE_CHILDREN_CROSSING_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_CHILDREN_CROSSING_WARNING_LEFT = 108;
+
+                // Pedal cycle route crossing or joining road ahead sign, from the right
+                // (StVO 138-10). Left: \c #TYPE_CYCLE_ROUTE_WARNING_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/138-10.png
+                //
+                TYPE_CYCLE_ROUTE_WARNING_RIGHT = 109;
+
+                // Pedal cycle route crossing or joining road ahead sign, from the left
+                // (StVO 138-20). Right: \c #TYPE_CYCLE_ROUTE_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_CYCLE_ROUTE_WARNING_LEFT = 110;
+
+                // Cattle crossing ahead, from the right
+                // (StVO 140-10). Left: \c #TYPE_CATTLE_CROSSING_WARNING_LEFT
+                //
+                // See e.g.:
+                //
+                TYPE_CATTLE_CROSSING_WARNING_RIGHT = 111;
+
+                // Cattle crossing ahead, from the left
+                // (StVO 140-20). Right: \c #TYPE_CATTLE_CROSSING_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_CATTLE_CROSSING_WARNING_LEFT = 112;
+
+                // Wild animals crossing ahead, from the right
+                // (StVO 142-10). Left: \c #TYPE_WILD_ANIMALS_CROSSING_WARNING_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/142-10.png
+                //
+                TYPE_WILD_ANIMALS_CROSSING_WARNING_RIGHT = 113;
+
+                // Wild animals crossing ahead, from the left
+                // (StVO 142-20). Right: \c #TYPE_WILD_ANIMALS_CROSSING_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_WILD_ANIMALS_CROSSING_WARNING_LEFT = 114;
+
+                // Low-flying aircraft or sudden aircraft noise, from the right
+                // (StVO 144-10). Left: \c #TYPE_FLIGHT_OPERATIONS_WARNING_LEFT
+                //
+                // See e.g.:
+                //
+                TYPE_FLIGHT_OPERATIONS_WARNING_RIGHT = 115;
+
+                // Low-flying aircraft or sudden aircraft noise, from the left
+                // (StVO 144-20). Right: \c #TYPE_FLIGHT_OPERATIONS_WARNING_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_FLIGHT_OPERATIONS_WARNING_LEFT = 116;
+
+                // Level crossing without barrier or gate ahead
+                // (StVO 151).
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/151.png
+                //
+                TYPE_LEVER_CROSSING_WITHOUT_BARRIER = 117;
+
+                // Countdown marker indicating that level crossing, right
+                // (StVO 156-10, StVO 156-11)
+                // \c TrafficSignValue::value and \c TrafficSignValue::value_unit .
+                // Left: \c #TYPE_LEVER_CROSSING_MARKER_AHEAD_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/156-10.png
+                //
+                TYPE_LEVER_CROSSING_MARKER_AHEAD_RIGHT = 118;
+
+                // Countdown marker indicating that level crossing, left
+                // (StVO 156-20, StVO 156-21)
+                // \c TrafficSignValue::value and \c TrafficSignValue::value_unit .
+                // Right: \c #TYPE_LEVER_CROSSING_MARKER_AHEAD_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_LEVER_CROSSING_MARKER_AHEAD_LEFT = 119;
+
+                // Level crossing beacon, right
+                // (StVO 157-10, StVO 157-11, StVO 159-10, StVO 159-11, StVO 162-10, StVO 162-11)
+                // \c TrafficSignValue::value and \c TrafficSignValue::value_unit .
+                // Left: \c #TYPE_LEVER_CROSSING_BEACON_AHEAD_LEFT
+                //
+                // See e.g.: https://www.dvr.de/bilder/stvo/gt/159-10.png
+                //
+                TYPE_LEVER_CROSSING_BEACON_AHEAD_RIGHT = 120;
+
+                // Level crossing beacon, left
+                // (StVO 157-20, StVO 157-21, StVO 159-20, StVO 159-21, StVO 162-20, StVO 162-21)
+                // \c TrafficSignValue::value and \c TrafficSignValue::value_unit .
+                // Right: \c #TYPE_LEVER_CROSSING_BEACON_AHEAD_RIGHT
+                //
+                // See e.g.:
+                //
+                TYPE_LEVER_CROSSING_BEACON_AHEAD_LEFT = 121;
+
             }
 
             // Definition of the direction of the traffic sign's scope.
